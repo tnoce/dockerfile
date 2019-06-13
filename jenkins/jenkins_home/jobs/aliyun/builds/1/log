@@ -1,0 +1,19 @@
+Started by user [8mha:AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZu/dLi1CL9krz85FQAh2hipsAAAAA=[0m長岡周
+Building in workspace /var/jenkins_home/workspace/aliyun
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/tnoce/shell
+ > git init /var/jenkins_home/workspace/aliyun # timeout=10
+Fetching upstream changes from https://github.com/tnoce/shell
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/tnoce/shell +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/tnoce/shell # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/tnoce/shell # timeout=10
+Fetching upstream changes from https://github.com/tnoce/shell
+ > git fetch --tags --progress https://github.com/tnoce/shell +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+ > git rev-parse origin/master^{commit} # timeout=10
+ERROR: Couldn't find any revision to build. Verify the repository and branch configuration for this job.
+[8mha:AAAAWB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0ldFVf2c+b/lb5MDAwVRQxSaBqcITRIIQMEMIIUFgAAckCEiWAAAAA=[0mFinished: FAILURE

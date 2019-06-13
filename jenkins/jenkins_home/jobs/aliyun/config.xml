@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers>
+    <hudson.triggers.TimerTrigger>
+      <spec>* * * * *</spec>
+    </hudson.triggers.TimerTrigger>
+  </triggers>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>
+REGION=&quot;ap-northeast-1&quot;
+
+ALL_INSTANCE_ID=(`aliyuncli ecs DescribeInstances | jq -r &apos;.Instances.Instance[].InstanceId&apos;`)
+
+for INSTANCE_ID in &quot;${ALL_INSTANCE_ID[@]}&quot;
+do
+  INSTANCE_STATUS=`aliyuncli ecs DescribeInstanceAttribute --InstanceId ${INSTANCE_ID} | jq -r &apos;.Status&apos;`
+  if [ &quot;${INSTANCE_STATUS}&quot; == &quot;Stopped&quot; ]; then
+    aliyuncli ecs StartInstance --InstanceId ${INSTANCE_ID} --RegionId ${REGION}
+    echo &quot;Started ECS Instance.&quot;
+    echo &quot;InstanceId:&quot;${INSTANCE_ID}
+  fi
+done
+    echo &quot;Complete all jobs!!&quot;</command>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>

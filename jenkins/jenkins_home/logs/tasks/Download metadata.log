@@ -1,0 +1,16 @@
+Started at Fri Jun 07 01:46:08 UTC 2019
+FATAL: Unhandled exception during updates server check
+[8mha:AAAAWB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0ldFVf2c+b/lb5MDAwVRQxSaBqcITRIIQMEMIIUFgAAckCEiWAAAAA=[0mjava.io.IOException: Unhandled exception during updates server check
+	at hudson.PluginManager.doCheckUpdatesServer(PluginManager.java:1522)
+	at jenkins.model.DownloadSettings$DailyCheck.execute(DownloadSettings.java:138)
+	at hudson.model.AsyncPeriodicWork$1.run(AsyncPeriodicWork.java:100)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException
+	at jenkins.util.JSONSignatureValidator.loadTrustAnchors(JSONSignatureValidator.java:142)
+	at jenkins.util.JSONSignatureValidator.verifySignature(JSONSignatureValidator.java:76)
+	at hudson.model.UpdateSite.verifySignature(UpdateSite.java:239)
+	at hudson.model.UpdateSite.updateData(UpdateSite.java:204)
+	at hudson.model.UpdateSite.updateDirectlyNow(UpdateSite.java:176)
+	at hudson.PluginManager.doCheckUpdatesServer(PluginManager.java:1508)
+	... 3 more
+Finished at Fri Jun 07 01:46:14 UTC 2019. 5915ms

@@ -1,0 +1,73 @@
+--- Copying files at Wed Jun  5 09:01:51 UTC 2019
+/usr/share/jenkins/ref/init.groovy.d/tcp-slave-agent-port.groovy
+ /usr/share/jenkins/ref/init.groovy.d/tcp-slave-agent-port.groovy -> init.groovy.d/tcp-slave-agent-port.groovy
+copy init.groovy.d/tcp-slave-agent-port.groovy to JENKINS_HOME
+/usr/share/jenkins/ref/plugins/dashboard-view.jpi
+ /usr/share/jenkins/ref/plugins/dashboard-view.jpi -> plugins/dashboard-view.jpi
+copy plugins/dashboard-view.jpi to JENKINS_HOME
+/usr/share/jenkins/ref/plugins/token-macro.jpi
+ /usr/share/jenkins/ref/plugins/token-macro.jpi -> plugins/token-macro.jpi
+copy plugins/token-macro.jpi to JENKINS_HOME
+/usr/share/jenkins/ref/plugins/maven-plugin.jpi
+ /usr/share/jenkins/ref/plugins/maven-plugin.jpi -> plugins/maven-plugin.jpi
+copy plugins/maven-plugin.jpi to JENKINS_HOME
+/usr/share/jenkins/ref/plugins/analysis-core.jpi
+ /usr/share/jenkins/ref/plugins/analysis-core.jpi -> plugins/analysis-core.jpi
+copy plugins/analysis-core.jpi to JENKINS_HOME
+/usr/share/jenkins/ref/plugins/javadoc.jpi
+ /usr/share/jenkins/ref/plugins/javadoc.jpi -> plugins/javadoc.jpi
+copy plugins/javadoc.jpi to JENKINS_HOME
+/usr/share/jenkins/ref/plugins/aws-device-farm.jpi
+ /usr/share/jenkins/ref/plugins/aws-device-farm.jpi -> plugins/aws-device-farm.jpi
+copy plugins/aws-device-farm.jpi to JENKINS_HOME
+/usr/share/jenkins/ref/plugins/android-lint.jpi
+ /usr/share/jenkins/ref/plugins/android-lint.jpi -> plugins/android-lint.jpi
+copy plugins/android-lint.jpi to JENKINS_HOME
+/usr/share/jenkins/ref/plugins/matrix-project.jpi
+ /usr/share/jenkins/ref/plugins/matrix-project.jpi -> plugins/matrix-project.jpi
+copy plugins/matrix-project.jpi to JENKINS_HOME
+/usr/share/jenkins/ref/plugins/checkstyle.jpi
+ /usr/share/jenkins/ref/plugins/checkstyle.jpi -> plugins/checkstyle.jpi
+copy plugins/checkstyle.jpi to JENKINS_HOME
+--- Copying files at Fri Jun  7 01:44:04 UTC 2019
+/usr/share/jenkins/ref/init.groovy.d/tcp-slave-agent-port.groovy
+ /usr/share/jenkins/ref/init.groovy.d/tcp-slave-agent-port.groovy -> init.groovy.d/tcp-slave-agent-port.groovy
+/usr/share/jenkins/ref/plugins/dashboard-view.jpi
+ /usr/share/jenkins/ref/plugins/dashboard-view.jpi -> plugins/dashboard-view.jpi
+/usr/share/jenkins/ref/plugins/token-macro.jpi
+ /usr/share/jenkins/ref/plugins/token-macro.jpi -> plugins/token-macro.jpi
+/usr/share/jenkins/ref/plugins/maven-plugin.jpi
+ /usr/share/jenkins/ref/plugins/maven-plugin.jpi -> plugins/maven-plugin.jpi
+/usr/share/jenkins/ref/plugins/analysis-core.jpi
+ /usr/share/jenkins/ref/plugins/analysis-core.jpi -> plugins/analysis-core.jpi
+/usr/share/jenkins/ref/plugins/javadoc.jpi
+ /usr/share/jenkins/ref/plugins/javadoc.jpi -> plugins/javadoc.jpi
+/usr/share/jenkins/ref/plugins/aws-device-farm.jpi
+ /usr/share/jenkins/ref/plugins/aws-device-farm.jpi -> plugins/aws-device-farm.jpi
+/usr/share/jenkins/ref/plugins/android-lint.jpi
+ /usr/share/jenkins/ref/plugins/android-lint.jpi -> plugins/android-lint.jpi
+/usr/share/jenkins/ref/plugins/matrix-project.jpi
+ /usr/share/jenkins/ref/plugins/matrix-project.jpi -> plugins/matrix-project.jpi
+/usr/share/jenkins/ref/plugins/checkstyle.jpi
+ /usr/share/jenkins/ref/plugins/checkstyle.jpi -> plugins/checkstyle.jpi
+--- Copying files at Fri Jun  7 01:45:33 UTC 2019
+/usr/share/jenkins/ref/init.groovy.d/tcp-slave-agent-port.groovy
+ /usr/share/jenkins/ref/init.groovy.d/tcp-slave-agent-port.groovy -> init.groovy.d/tcp-slave-agent-port.groovy
+/usr/share/jenkins/ref/plugins/dashboard-view.jpi
+ /usr/share/jenkins/ref/plugins/dashboard-view.jpi -> plugins/dashboard-view.jpi
+/usr/share/jenkins/ref/plugins/token-macro.jpi
+ /usr/share/jenkins/ref/plugins/token-macro.jpi -> plugins/token-macro.jpi
+/usr/share/jenkins/ref/plugins/maven-plugin.jpi
+ /usr/share/jenkins/ref/plugins/maven-plugin.jpi -> plugins/maven-plugin.jpi
+/usr/share/jenkins/ref/plugins/analysis-core.jpi
+ /usr/share/jenkins/ref/plugins/analysis-core.jpi -> plugins/analysis-core.jpi
+/usr/share/jenkins/ref/plugins/javadoc.jpi
+ /usr/share/jenkins/ref/plugins/javadoc.jpi -> plugins/javadoc.jpi
+/usr/share/jenkins/ref/plugins/aws-device-farm.jpi
+ /usr/share/jenkins/ref/plugins/aws-device-farm.jpi -> plugins/aws-device-farm.jpi
+/usr/share/jenkins/ref/plugins/android-lint.jpi
+ /usr/share/jenkins/ref/plugins/android-lint.jpi -> plugins/android-lint.jpi
+/usr/share/jenkins/ref/plugins/matrix-project.jpi
+ /usr/share/jenkins/ref/plugins/matrix-project.jpi -> plugins/matrix-project.jpi
+/usr/share/jenkins/ref/plugins/checkstyle.jpi
+ /usr/share/jenkins/ref/plugins/checkstyle.jpi -> plugins/checkstyle.jpi

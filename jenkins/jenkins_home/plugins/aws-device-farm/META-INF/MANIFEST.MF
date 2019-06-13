@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: hawker
+Build-Jdk: 1.8.0_45
+Extension-Name: aws-device-farm
+Specification-Title: AWS Device Farm Jenkins Plugin
+Implementation-Title: aws-device-farm
+Implementation-Version: 1.13
+Group-Id: org.jenkins-ci.plugins
+Short-Name: aws-device-farm
+Long-Name: aws-device-farm
+Url: https://wiki.jenkins-ci.org/display/JENKINS/AWS+Device+Farm+Plugin
+Plugin-Version: 1.13
+Hudson-Version: 1.509.2
+Jenkins-Version: 1.509.2
+Plugin-Developers: Andrew Hawker:ahawker:ahawker@amazon.com
+

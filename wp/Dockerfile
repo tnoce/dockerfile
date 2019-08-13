@@ -2,7 +2,7 @@
 FROM busybox
 
 # 作成者
-MAINTAINER SHU volkjajaja@gmail.com
+MAINTAINER
 
 # ボリュームの指定
 VOLUME /var/lib/mysql
